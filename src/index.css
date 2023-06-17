@@ -1,0 +1,36 @@
+.main {
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.flex {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
