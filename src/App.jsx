@@ -29,7 +29,7 @@ function App() {
     <div className="ui container">
       <Header />
       <AddContact addContactHandler={addContactHandler} />
-      <h2 className="list">Contact List</h2>
+      {contacts.length > 0 && <h2 className="list">Contact List</h2>}
       <ContactList contacts={contacts} getContactId={removeContactHandler} />
     </div>
   );
